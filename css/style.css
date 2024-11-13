@@ -528,6 +528,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  padding: 0%;
 }
 
 .img-thumbnail {
@@ -9564,13 +9565,16 @@ h6,
 }
 
 @media (min-width: 992px) {
-  .about-text {
+  .about-text{
     margin-left: -120px;
+  }
+  .about-text2 {
+    margin-left: -575px;
   }
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
+  background: no-repeat center center;
   background-size: cover;
 }
 
@@ -9768,4 +9772,8 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+.texto-con-borde {
+  color: #1C1D26; /* Color del texto */
+  text-shadow: -1px -1px 0 #D6E0E2, 1px -1px 0 #D6E0E2, -1px 1px 0 #D6E0E2, 1px 1px 0 #D6E0E2; /* Definición del borde */ 
 }
