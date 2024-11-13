@@ -3215,7 +3215,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #7AB730;
+  background-color: #E0C9C8;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -9270,7 +9270,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #527a20 !important;
+  color: #E0C9C8 !important;
 }
 
 .text-secondary {
@@ -9753,7 +9753,7 @@ h6,
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #7AB730;
+  background: #506366;
 }
 
 .blog-date::after {
@@ -9764,7 +9764,7 @@ h6,
   top: -15px;
   left: 0;
   border: 8px solid;
-  border-color: transparent #5f8f25 #5f8f25 transparent;
+  border-color: transparent #435659 #435659 transparent;
   z-index: -1;
 }
 
@@ -9776,4 +9776,7 @@ h6,
 .texto-con-borde {
   color: #1C1D26; /* Color del texto */
   text-shadow: -1px -1px 0 #D6E0E2, 1px -1px 0 #D6E0E2, -1px 1px 0 #D6E0E2, 1px 1px 0 #D6E0E2; /* Definición del borde */ 
+}
+.texto-mas-grande{
+  font-size: larger;
 }
