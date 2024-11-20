@@ -457,7 +457,7 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -9570,6 +9570,10 @@ h6,
   }
   .about-text2 {
     margin-left: -575px;
+  }
+  .about-text3 {
+    margin-right: -275px;
+    margin-left: -275px;
   }
 }
 
